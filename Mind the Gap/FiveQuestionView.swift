@@ -13,26 +13,25 @@ struct FiveQuestionView: View {
         ZStack {
             Color("lightPink")
                 .ignoresSafeArea()
-            Text("Quiz yourself!")
             NavigationStack {
                 VStack {
                     Text("Which of the following are ways that an individual can create awareness about the gender gap?")
                         .font(.title)
                         .padding()
-                    Button("Purple"){
-                        response = "false"
-                        
-                        
-                    }
-                    Button("Pink") {
-                        response = "true"
+                    Button("A. Suggesting ways to eliminate bias and discrimination in hiring, promotion, and pay decisions."){
+                        response = "False"
                         
                     }
-                    Button("Green") {
-                        response = "false"
+                    Button("B. Have inclusive conversations ") {
+                        response = "False"
                         
                     }
-                    .padding()
+                    Button("C. Create a culture of equity.") {
+                        response = "False"
+                    }
+                    Button("D. All of the Above") {
+                        response = "True"
+                    }
                     Text("\(response)")
                     
                         .toolbar{
