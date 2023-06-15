@@ -28,21 +28,16 @@ struct ContentView: View {
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
-                        //   .overlay(
-                        //     Capsule(style: .continuous)
-                        //       .stroke(Color."LPink", lineWidth: 5)
-                        //)
-                        //    .buttonStyle(.borderedProminent)
                             .frame(width: 170, height: 60, alignment: .center)
                             .background(Color("lightPink"))
                             .cornerRadius(10)
-                        //  .padding()
+                      
                         
                     }
                     .padding()
                     
                     NavigationLink(destination: ComparisonsView()) {
-                        Text("Comparisons")
+                        Text("Women in the Workforce")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)

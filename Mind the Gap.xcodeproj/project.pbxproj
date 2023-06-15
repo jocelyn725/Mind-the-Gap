@@ -21,6 +21,8 @@
 		D11C01012A3A44B2002A1706 /* AwarenessHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01002A3A44B2002A1706 /* AwarenessHelpView.swift */; };
 		D11C01032A3B5D86002A1706 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01022A3B5D86002A1706 /* QuizView.swift */; };
 		D11C01052A3B5E63002A1706 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01042A3B5E63002A1706 /* mapView.swift */; };
+		D11C01072A3B73DF002A1706 /* salaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01062A3B73DF002A1706 /* salaryView.swift */; };
+		D11C01092A3B73EB002A1706 /* promotionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01082A3B73EB002A1706 /* promotionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		D11C01002A3A44B2002A1706 /* AwarenessHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwarenessHelpView.swift; sourceTree = "<group>"; };
 		D11C01022A3B5D86002A1706 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		D11C01042A3B5E63002A1706 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
+		D11C01062A3B73DF002A1706 /* salaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salaryView.swift; sourceTree = "<group>"; };
+		D11C01082A3B73EB002A1706 /* promotionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promotionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				D11C00FC2A3A4484002A1706 /* AddressIssueView.swift */,
 				D11C01042A3B5E63002A1706 /* mapView.swift */,
 				D11C00FE2A3A44A1002A1706 /* ComparisonsView.swift */,
+				D11C01062A3B73DF002A1706 /* salaryView.swift */,
+				D11C01082A3B73EB002A1706 /* promotionsView.swift */,
 				D11C01002A3A44B2002A1706 /* AwarenessHelpView.swift */,
 				D11C01022A3B5D86002A1706 /* QuizView.swift */,
 				344EF6FF2A3B6A9000B426BC /* secondQuestionView.swift */,
@@ -170,6 +176,8 @@
 				D11C00FD2A3A4484002A1706 /* AddressIssueView.swift in Sources */,
 				D11C00FF2A3A44A1002A1706 /* ComparisonsView.swift in Sources */,
 				344EF7002A3B6A9000B426BC /* secondQuestionView.swift in Sources */,
+				D11C01072A3B73DF002A1706 /* salaryView.swift in Sources */,
+				D11C01092A3B73EB002A1706 /* promotionsView.swift in Sources */,
 				D11C00F12A3A4423002A1706 /* ContentView.swift in Sources */,
 				344EF7022A3B6A9C00B426BC /* thirdQuestionView.swift in Sources */,
 				344EF7042A3B6B5D00B426BC /* FourQuestionView.swift in Sources */,
