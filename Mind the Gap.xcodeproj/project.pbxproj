@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		344EF7002A3B6A9000B426BC /* secondQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EF6FF2A3B6A9000B426BC /* secondQuestionView.swift */; };
+		344EF7022A3B6A9C00B426BC /* thirdQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EF7012A3B6A9C00B426BC /* thirdQuestionView.swift */; };
+		344EF7042A3B6B5D00B426BC /* FourQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EF7032A3B6B5D00B426BC /* FourQuestionView.swift */; };
+		344EF7062A3B6B6C00B426BC /* FiveQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EF7052A3B6B6C00B426BC /* FiveQuestionView.swift */; };
+		344EF7082A3B6C7100B426BC /* FinalQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EF7072A3B6C7100B426BC /* FinalQuiz.swift */; };
 		D11C00EF2A3A4423002A1706 /* Mind_the_GapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C00EE2A3A4423002A1706 /* Mind_the_GapApp.swift */; };
 		D11C00F12A3A4423002A1706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C00F02A3A4423002A1706 /* ContentView.swift */; };
 		D11C00F32A3A4425002A1706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11C00F22A3A4425002A1706 /* Assets.xcassets */; };
@@ -19,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		344EF6FF2A3B6A9000B426BC /* secondQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondQuestionView.swift; sourceTree = "<group>"; };
+		344EF7012A3B6A9C00B426BC /* thirdQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdQuestionView.swift; sourceTree = "<group>"; };
+		344EF7032A3B6B5D00B426BC /* FourQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourQuestionView.swift; sourceTree = "<group>"; };
+		344EF7052A3B6B6C00B426BC /* FiveQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveQuestionView.swift; sourceTree = "<group>"; };
+		344EF7072A3B6C7100B426BC /* FinalQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalQuiz.swift; sourceTree = "<group>"; };
 		D11C00EB2A3A4423002A1706 /* Mind the Gap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind the Gap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11C00EE2A3A4423002A1706 /* Mind_the_GapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_the_GapApp.swift; sourceTree = "<group>"; };
 		D11C00F02A3A4423002A1706 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +78,11 @@
 				D11C00FE2A3A44A1002A1706 /* ComparisonsView.swift */,
 				D11C01002A3A44B2002A1706 /* AwarenessHelpView.swift */,
 				D11C01022A3B5D86002A1706 /* QuizView.swift */,
+				344EF6FF2A3B6A9000B426BC /* secondQuestionView.swift */,
+				344EF7012A3B6A9C00B426BC /* thirdQuestionView.swift */,
+				344EF7032A3B6B5D00B426BC /* FourQuestionView.swift */,
+				344EF7052A3B6B6C00B426BC /* FiveQuestionView.swift */,
+				344EF7072A3B6C7100B426BC /* FinalQuiz.swift */,
 				D11C00F22A3A4425002A1706 /* Assets.xcassets */,
 				D11C00F42A3A4425002A1706 /* Preview Content */,
 			);
@@ -154,9 +169,14 @@
 			files = (
 				D11C00FD2A3A4484002A1706 /* AddressIssueView.swift in Sources */,
 				D11C00FF2A3A44A1002A1706 /* ComparisonsView.swift in Sources */,
+				344EF7002A3B6A9000B426BC /* secondQuestionView.swift in Sources */,
 				D11C00F12A3A4423002A1706 /* ContentView.swift in Sources */,
+				344EF7022A3B6A9C00B426BC /* thirdQuestionView.swift in Sources */,
+				344EF7042A3B6B5D00B426BC /* FourQuestionView.swift in Sources */,
+				344EF7062A3B6B6C00B426BC /* FiveQuestionView.swift in Sources */,
 				D11C01012A3A44B2002A1706 /* AwarenessHelpView.swift in Sources */,
 				D11C00EF2A3A4423002A1706 /* Mind_the_GapApp.swift in Sources */,
+				344EF7082A3B6C7100B426BC /* FinalQuiz.swift in Sources */,
 				D11C01032A3B5D86002A1706 /* QuizView.swift in Sources */,
 				D11C01052A3B5E63002A1706 /* mapView.swift in Sources */,
 			);

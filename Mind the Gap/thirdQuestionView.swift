@@ -1,47 +1,45 @@
 //
-//  QuizView.swift
+//  thirdQuestionView.swift
 //  Mind the Gap
 //
-//  Created by Jocelyn Paek on 6/15/23.
+//  Created by Jahnavi Patel on 6/15/23.
 //
 
 import SwiftUI
 
-struct QuizView: View {
+struct thirdQuestionView: View {
     @State private var response: String = ""
     var body: some View {
         ZStack {
             Color("lightPink")
                 .ignoresSafeArea()
-            Text("Quiz yourself!")
             NavigationStack {
                 VStack {
-                    Text("1. Which state, in 2021, had women earn 78.1% of what men earned?")
-                        .font(.title)
+                    Text("3. Which year did women of all races, on average, earn just 82 cents for every $1 earned by men of all races?")
+                        .font(.title2)
                         .padding()
-                    Button("Alabama"){
+                    Button("A. 2019"){
                         response = "False"
                         
                         
                     }
-                    Button("Louissiana") {
+                    Button("B. 2000") {
+                        response = "False"
+                        
+                    }
+                    Button("C. 2018") {
                         response = "True"
                         
                     }
-                    Button("Florida") {
-                        response = "False"
-                        
                     }
-                    }
-                    Button("Texas") {
+                    Button("D. 2000") {
                         response = "False"
                     
                     }
-                    
                     Text("\(response)")
                     
                         .toolbar{
-                            NavigationLink(destination: secondQuestionView()) {
+                            NavigationLink(destination: FourQuestionView()) {
                                 Text("Next Question")
                             }
                         }
@@ -50,10 +48,9 @@ struct QuizView: View {
         }
     }
 
-    
-    struct QuizView_Previews: PreviewProvider {
-        static var previews: some View {
-            QuizView()
-        }
-    }
 
+struct thirdQuestionView_Previews: PreviewProvider {
+    static var previews: some View {
+        thirdQuestionView()
+    }
+}

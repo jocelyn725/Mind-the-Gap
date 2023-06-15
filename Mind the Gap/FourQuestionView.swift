@@ -1,47 +1,46 @@
 //
-//  QuizView.swift
+//  4QuestionView.swift
 //  Mind the Gap
 //
-//  Created by Jocelyn Paek on 6/15/23.
+//  Created by Jahnavi Patel on 6/15/23.
 //
 
 import SwiftUI
 
-struct QuizView: View {
+struct FourQuestionView: View {
     @State private var response: String = ""
     var body: some View {
         ZStack {
             Color("lightPink")
                 .ignoresSafeArea()
-            Text("Quiz yourself!")
             NavigationStack {
                 VStack {
-                    Text("1. Which state, in 2021, had women earn 78.1% of what men earned?")
+                    Text("Fill in the blank, Black women make _____% of what men earn and Hispanic women earn _____ of what men earn in Louisiana.")
                         .font(.title)
                         .padding()
-                    Button("Alabama"){
-                        response = "False"
+                    Button("A. 70 and 65"){
+                        response = "false"
                         
                         
                     }
-                    Button("Louissiana") {
-                        response = "True"
+                    Button("B. 87 and 90") {
+                        response = "true"
                         
                     }
-                    Button("Florida") {
-                        response = "False"
+                    Button("C. 54 and 38") {
+                        response = "false"
                         
                     }
                     }
-                    Button("Texas") {
-                        response = "False"
+                    Button("C. 54 and 38") {
+                        response = "false"
                     
                     }
                     
                     Text("\(response)")
                     
                         .toolbar{
-                            NavigationLink(destination: secondQuestionView()) {
+                            NavigationLink(destination: FiveQuestionView()) {
                                 Text("Next Question")
                             }
                         }
@@ -50,10 +49,9 @@ struct QuizView: View {
         }
     }
 
-    
-    struct QuizView_Previews: PreviewProvider {
-        static var previews: some View {
-            QuizView()
-        }
-    }
 
+struct _QuestionView_Previews: PreviewProvider {
+    static var previews: some View {
+        FourQuestionView()
+    }
+}
