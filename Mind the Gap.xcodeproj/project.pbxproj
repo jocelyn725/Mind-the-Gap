@@ -14,6 +14,8 @@
 		D11C00FD2A3A4484002A1706 /* AddressIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C00FC2A3A4484002A1706 /* AddressIssueView.swift */; };
 		D11C00FF2A3A44A1002A1706 /* ComparisonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C00FE2A3A44A1002A1706 /* ComparisonsView.swift */; };
 		D11C01012A3A44B2002A1706 /* AwarenessHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01002A3A44B2002A1706 /* AwarenessHelpView.swift */; };
+		D11C01032A3B5D86002A1706 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01022A3B5D86002A1706 /* QuizView.swift */; };
+		D11C01052A3B5E63002A1706 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01042A3B5E63002A1706 /* mapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		D11C00FC2A3A4484002A1706 /* AddressIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressIssueView.swift; sourceTree = "<group>"; };
 		D11C00FE2A3A44A1002A1706 /* ComparisonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonsView.swift; sourceTree = "<group>"; };
 		D11C01002A3A44B2002A1706 /* AwarenessHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwarenessHelpView.swift; sourceTree = "<group>"; };
+		D11C01022A3B5D86002A1706 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		D11C01042A3B5E63002A1706 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 				D11C00EE2A3A4423002A1706 /* Mind_the_GapApp.swift */,
 				D11C00F02A3A4423002A1706 /* ContentView.swift */,
 				D11C00FC2A3A4484002A1706 /* AddressIssueView.swift */,
+				D11C01042A3B5E63002A1706 /* mapView.swift */,
 				D11C00FE2A3A44A1002A1706 /* ComparisonsView.swift */,
 				D11C01002A3A44B2002A1706 /* AwarenessHelpView.swift */,
+				D11C01022A3B5D86002A1706 /* QuizView.swift */,
 				D11C00F22A3A4425002A1706 /* Assets.xcassets */,
 				D11C00F42A3A4425002A1706 /* Preview Content */,
 			);
@@ -151,6 +157,8 @@
 				D11C00F12A3A4423002A1706 /* ContentView.swift in Sources */,
 				D11C01012A3A44B2002A1706 /* AwarenessHelpView.swift in Sources */,
 				D11C00EF2A3A4423002A1706 /* Mind_the_GapApp.swift in Sources */,
+				D11C01032A3B5D86002A1706 /* QuizView.swift in Sources */,
+				D11C01052A3B5E63002A1706 /* mapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

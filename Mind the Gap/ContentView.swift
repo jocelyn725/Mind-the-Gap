@@ -11,32 +11,32 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-           ZStack {
+            ZStack {
                 Color("neutral")
                     .ignoresSafeArea()
-             
-                  
-               
+                
+                
+                
                 VStack(alignment: .center, spacing: 20.0) {
                     Image("logo")
                         .resizable()
                         .frame(width: 300, height: 300)
-                  //  Spacer()
+                    //  Spacer()
                     
                     NavigationLink(destination: AddressIssueView()) {
-                        Text("Address the Issue!")
+                        Text("Address the Issue")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
-                         //   .overlay(
-                           //     Capsule(style: .continuous)
-                             //       .stroke(Color."LPink", lineWidth: 5)
-                            //)
+                        //   .overlay(
+                        //     Capsule(style: .continuous)
+                        //       .stroke(Color."LPink", lineWidth: 5)
+                        //)
                         //    .buttonStyle(.borderedProminent)
                             .frame(width: 170, height: 60, alignment: .center)
-                            .background()
+                            .background(Color("lightPink"))
                             .cornerRadius(10)
-                          //  .padding()
+                        //  .padding()
                         
                     }
                     .padding()
@@ -47,7 +47,7 @@ struct ContentView: View {
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
                             .frame(width: 170, height: 60, alignment: .center)
-                            .background()
+                            .background(Color("darkGreen"))
                             .cornerRadius(10)
                         
                         
@@ -59,20 +59,29 @@ struct ContentView: View {
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
                             .frame(width: 170, height: 60, alignment: .center)
-                            .background()
+                            .background(Color("logoBlue"))
                             .cornerRadius(10)
                     }
                     .padding()
+                    NavigationLink(destination: QuizView()) {
+                        Text("Quiz yourself!")
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.black)
+                            .multilineTextAlignment(.center)
+                            .frame(width: 170, height: 60, alignment: .center)
+                            .background(Color("lightPink"))
+                            .cornerRadius(10)
+                                            }
+                  
                 }
-                    
-                }
-            
-                }
+                
             }
         }
+    }
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()
         }
     }
+}

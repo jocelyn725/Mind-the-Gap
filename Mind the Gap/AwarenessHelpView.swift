@@ -9,12 +9,16 @@ import SwiftUI
 
 struct AwarenessHelpView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color("neutral")
+                .ignoresSafeArea()
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        }
     }
-}
-
-struct AwarenessHelpView_Previews: PreviewProvider {
-    static var previews: some View {
-        AwarenessHelpView()
+    
+    struct AwarenessHelpView_Previews: PreviewProvider {
+        static var previews: some View {
+            AwarenessHelpView()
+        }
     }
 }
