@@ -24,7 +24,7 @@ struct ContentView: View {
                   //  Spacer()
                     
                     NavigationLink(destination: AddressIssueView()) {
-                        Text("Address the Issue")
+                        Text("Address the Issue!")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
