@@ -12,11 +12,13 @@ struct BiasView: View {
         ZStack {
             Color("lightPink")
                 .ignoresSafeArea()
-            
-            Text("Due to already integrated gender stereotypes and inequalities within the workforce, it’s harder for women to gain promotions/higher job positions. For example, such biases and stereotypes may lead to the perception the men are much more suited for leadership roles. ")
+            VStack{
+                Text("Bias")
+                
+                Text("Due to already integrated gender stereotypes and inequalities within the workforce, it’s harder for women to gain promotions/higher job positions. For example, such biases and stereotypes may lead to the perception the men are much more suited for leadership roles. ")
+            }
         }
     }
-    
     struct BiasView_Previews: PreviewProvider {
         static var previews: some View {
             BiasView()

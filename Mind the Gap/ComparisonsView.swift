@@ -14,7 +14,7 @@ struct ComparisonsView: View {
                 Color("darkGreen")
                     .ignoresSafeArea()
                 VStack{
-                    Text("Women in the workforce")
+                    Text("Women in the workforce ")
                         .font(.title)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
@@ -24,7 +24,7 @@ struct ComparisonsView: View {
                   //  Spacer()
                     
                     NavigationLink(destination: salaryView()) {
-                        Text("Learn about Salary statistics")
+                        Text("Learn about Salary statistics 🏷️ ")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
@@ -38,7 +38,7 @@ struct ComparisonsView: View {
                     .padding()
                     
                     NavigationLink(destination: promotionsView()) {
-                        Text("The Gender Promotion Gap")
+                        Text("The Gender Promotion Gap 🏷️")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)

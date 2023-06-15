@@ -17,14 +17,30 @@ struct alabamaView: View {
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding()
+                    .padding(2)
+                      .overlay(
+                          RoundedRectangle(cornerRadius: 5)
+                              .stroke(.black, lineWidth: 4)
+                          )
+                
                 Text(" • Caucasian Women are paid only 67 cents for every dollar that men make ")
-                   
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
+                    .padding()
                 Text(" • However, Black and hispanic women are paid even less. Black women are paid 52 cents for every dollar men are making and hispanic women are paid 41 cents for every dollar men are making")
-                   
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
+                    .padding()
                 Text("• A lot of this is due to occupational segregation where one demographic is overrepresented in a certain job")
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
+                    .padding()
                 Text("• Women have less job security and are often fired for petty reasons")
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
+                    .padding()
                 Text("• Yvette Gilkey-Shuford, former employee of Alabama Hyundai Plant was promoted and the company admitted that she was promoted to appease diversity activism. However she was later fired after the company claimed she became “expendable”")
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
+                    .padding()
                 Text("• Kay’ana Adams was unfairly targeted and fired from her job as a firefighter due to a tattoo on her neck even though the fire station changed the policy of tattoos after they filed a comlaint to her")
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
+                    .padding()
             }
         }
     }

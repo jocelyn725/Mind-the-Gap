@@ -13,19 +13,18 @@ struct FinalQuiz: View {
             ZStack {
                 Color("neutral")
                     .ignoresSafeArea()
-                
                 NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
-                    Text("Back to home page!")
-                        .fontWeight(.bold)
-                        .foregroundColor(Color.black)
-                        .multilineTextAlignment(.center)
-                        .frame(width: 175, height: 60, alignment: .center)
-                        .background(Color("darkGreen"))
-                        .cornerRadius(10)
+                        Text("Back to home page!")
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.black)
+                            .multilineTextAlignment(.center)
+                            .frame(width: 175, height: 60, alignment: .center)
+                            .background(Color("darkGreen"))
+                            .cornerRadius(10)
+                    }
                 }
             }
         }
-    }
         
         struct FinalQuiz_Previews: PreviewProvider {
             static var previews: some View {
@@ -33,4 +32,4 @@ struct FinalQuiz: View {
             }
         }
     }
-
+    

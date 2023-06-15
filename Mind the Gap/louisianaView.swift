@@ -17,12 +17,26 @@ struct louisianaView: View {
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding()
+                   // .border(.black, width: 2)
+                    .padding(2)
+                      .overlay(
+                          RoundedRectangle(cornerRadius: 5)
+                              .stroke(.black, lineWidth: 4)
+                      )
+                
                 Text(" •As of 2021, women in Louisiana made 78.1% of what men earned ")
-                   
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
+                    .padding()
                 Text(" • Black women make 48% of what men earn and hispanic women earn 52% of what men earn")
-                   
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
+                    .padding()
                 Text("• Female Ruston police advisor was discriminated against due to her gender")
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
+                    .padding()
+                
                 Text("• She didn’t receive as much training as male counterparts, and she was denied opportunities to work as an investigator.")
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
+                    .padding()
         
              
             }
