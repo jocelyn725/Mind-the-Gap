@@ -26,6 +26,9 @@
 		D11C010B2A3B7ADD002A1706 /* BiasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C010A2A3B7ADD002A1706 /* BiasView.swift */; };
 		D11C010D2A3B7B19002A1706 /* leadershipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C010C2A3B7B19002A1706 /* leadershipView.swift */; };
 		D11C010F2A3B7B24002A1706 /* cultureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C010E2A3B7B24002A1706 /* cultureView.swift */; };
+		D11C01132A3B9282002A1706 /* louisianaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01122A3B9282002A1706 /* louisianaView.swift */; };
+		D11C01152A3B928C002A1706 /* alabamaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01142A3B928C002A1706 /* alabamaView.swift */; };
+		D11C01172A3B9297002A1706 /* floridaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C01162A3B9297002A1706 /* floridaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		D11C010A2A3B7ADD002A1706 /* BiasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiasView.swift; sourceTree = "<group>"; };
 		D11C010C2A3B7B19002A1706 /* leadershipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leadershipView.swift; sourceTree = "<group>"; };
 		D11C010E2A3B7B24002A1706 /* cultureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cultureView.swift; sourceTree = "<group>"; };
+		D11C01122A3B9282002A1706 /* louisianaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = louisianaView.swift; sourceTree = "<group>"; };
+		D11C01142A3B928C002A1706 /* alabamaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alabamaView.swift; sourceTree = "<group>"; };
+		D11C01162A3B9297002A1706 /* floridaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floridaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 				D11C00F02A3A4423002A1706 /* ContentView.swift */,
 				D11C00FC2A3A4484002A1706 /* AddressIssueView.swift */,
 				D11C01042A3B5E63002A1706 /* mapView.swift */,
+				D11C01122A3B9282002A1706 /* louisianaView.swift */,
+				D11C01142A3B928C002A1706 /* alabamaView.swift */,
+				D11C01162A3B9297002A1706 /* floridaView.swift */,
 				D11C00FE2A3A44A1002A1706 /* ComparisonsView.swift */,
 				D11C01062A3B73DF002A1706 /* salaryView.swift */,
 				D11C01082A3B73EB002A1706 /* promotionsView.swift */,
@@ -182,14 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11C01172A3B9297002A1706 /* floridaView.swift in Sources */,
 				D11C00FD2A3A4484002A1706 /* AddressIssueView.swift in Sources */,
 				D11C00FF2A3A44A1002A1706 /* ComparisonsView.swift in Sources */,
+				D11C01132A3B9282002A1706 /* louisianaView.swift in Sources */,
 				344EF7002A3B6A9000B426BC /* secondQuestionView.swift in Sources */,
 				D11C01072A3B73DF002A1706 /* salaryView.swift in Sources */,
 				D11C01092A3B73EB002A1706 /* promotionsView.swift in Sources */,
 				D11C010F2A3B7B24002A1706 /* cultureView.swift in Sources */,
 				D11C00F12A3A4423002A1706 /* ContentView.swift in Sources */,
 				344EF7022A3B6A9C00B426BC /* thirdQuestionView.swift in Sources */,
+				D11C01152A3B928C002A1706 /* alabamaView.swift in Sources */,
 				344EF7042A3B6B5D00B426BC /* FourQuestionView.swift in Sources */,
 				344EF7062A3B6B6C00B426BC /* FiveQuestionView.swift in Sources */,
 				D11C01012A3A44B2002A1706 /* AwarenessHelpView.swift in Sources */,

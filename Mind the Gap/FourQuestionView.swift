@@ -19,21 +19,21 @@ struct FourQuestionView: View {
                         .font(.title)
                         .padding()
                     Button("A. 70 and 65"){
-                        response = "false"
+                        response = "Not Quite"
                         
                         
                     }
                     Button("B. 87 and 90") {
-                        response = "true"
+                        response = "Not Quite"
                         
                     }
                     Button("C. 54 and 38") {
-                        response = "false"
+                        response = "Not quite"
                         
                     }
                     }
-                    Button("C. 54 and 38") {
-                        response = "false"
+                    Button("C. 48 and 52") {
+                        response = "Correct!"
                     
                     }
                     
@@ -42,6 +42,7 @@ struct FourQuestionView: View {
                         .toolbar{
                             NavigationLink(destination: FiveQuestionView()) {
                                 Text("Next Question")
+                                    .foregroundColor(Color("lightLogo"))
                             }
                         }
                 }

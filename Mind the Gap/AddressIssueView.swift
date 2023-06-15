@@ -12,10 +12,14 @@ struct AddressIssueView: View {
         ZStack {
             Color("lightPink")
                 .ignoresSafeArea()
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            VStack{
+                Text("Let's Talk about it!")
+                    .padding()
+                Text("Our Mission Statement:")
+                Text("To bring more awareness when it comes to gender inequality within the workforce!")
+            }
         }
     }
-    
     struct AddressIssueView_Previews: PreviewProvider {
         static var previews: some View {
             AddressIssueView()

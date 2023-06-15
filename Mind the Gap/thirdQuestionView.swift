@@ -41,6 +41,7 @@ struct thirdQuestionView: View {
                         .toolbar{
                             NavigationLink(destination: FourQuestionView()) {
                                 Text("Next Question")
+                                    .foregroundColor(Color("lightLogo"))
                             }
                         }
                 }

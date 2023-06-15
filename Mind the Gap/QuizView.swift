@@ -13,28 +13,29 @@ struct QuizView: View {
         ZStack {
             Color("lightPink")
                 .ignoresSafeArea()
+            
             Text("Quiz yourself!")
             NavigationStack {
                 VStack {
-                    Text("1. Which state, in 2021, had women earn 78.1% of what men earned?")
+                    Text("1.   Which state, in 2021, had women earn 78.1% of what men earned?")
                         .font(.title)
                         .padding()
                     Button("Alabama"){
-                        response = "False"
+                        response = "Not Quite"
                         
                         
                     }
                     Button("Louissiana") {
-                        response = "True"
+                        response = "Good Job!"
                         
                     }
                     Button("Florida") {
-                        response = "False"
+                        response = "Not Quite"
                         
                     }
                     }
                     Button("Texas") {
-                        response = "False"
+                        response = "Not Quite"
                     
                     }
                     
@@ -43,6 +44,8 @@ struct QuizView: View {
                         .toolbar{
                             NavigationLink(destination: secondQuestionView()) {
                                 Text("Next Question")
+                                    .foregroundColor(Color("logoBlue"))
+                                
                             }
                         }
                 }

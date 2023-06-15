@@ -15,7 +15,7 @@ struct ContentView: View {
                 Color("neutral")
                     .ignoresSafeArea()
                 
-                
+        
                 
                 VStack(alignment: .center, spacing: 20.0) {
                     Image("logo")
@@ -54,7 +54,7 @@ struct ContentView: View {
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
                             .frame(width: 170, height: 60, alignment: .center)
-                            .background(Color("logoBlue"))
+                            .background(Color("lightLogo"))
                             .cornerRadius(10)
                     }
                     .padding()

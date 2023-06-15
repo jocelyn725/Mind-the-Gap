@@ -18,19 +18,19 @@ struct FiveQuestionView: View {
                     Text("Which of the following are ways that an individual can create awareness about the gender gap?")
                         .font(.title)
                         .padding()
-                    Button("A. Suggesting ways to eliminate bias and discrimination in hiring, promotion, and pay decisions."){
-                        response = "False"
+                    Button("A. Suggesting ways to eliminate bias and discrimination in the workforce."){
+                        response = "Almost there"
                         
                     }
                     Button("B. Have inclusive conversations ") {
-                        response = "False"
+                        response = "Almost there"
                         
                     }
                     Button("C. Create a culture of equity.") {
-                        response = "False"
+                        response = "Almost there"
                     }
                     Button("D. All of the Above") {
-                        response = "True"
+                        response = "Correct!"
                     }
                     Text("\(response)")
                     

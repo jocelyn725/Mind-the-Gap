@@ -10,9 +10,11 @@ import SwiftUI
 struct secondQuestionView: View {
     @State private var response: String = ""
     var body: some View {
+        
         ZStack {
-            Color("lightPink")
+            Color("neutral")
                 .ignoresSafeArea()
+            
             NavigationStack {
                 VStack {
                     Text("2. Which of the following are reasons the Gender Promotion Gap exists?")
@@ -43,6 +45,7 @@ struct secondQuestionView: View {
                         .toolbar{
                             NavigationLink(destination: thirdQuestionView()) {
                                 Text("Next Question")
+                                    .foregroundColor(Color("lightLogo"))
                             }
                         }
                 }
