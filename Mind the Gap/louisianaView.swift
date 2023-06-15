@@ -19,12 +19,12 @@ struct louisianaView: View {
                     .padding()
                 Text(" •As of 2021, women in Louisiana made 78.1% of what men earned ")
                    
-                Text(" • BlacBlack women make 48% of what men earn and hispanic women earn 52% of what men earn")
+                Text(" • Black women make 48% of what men earn and hispanic women earn 52% of what men earn")
                    
-                Text("• A lot of this is due to occupational segregation where one demographic is overrepresented in a certain job")
-                Text("• Women have less job security and are often fired for petty reasons")
-                Text("• Yvette Gilkey-Shuford, former employee of Alabama Hyundai Plant was promoted and the company admitted that she was promoted to appease diversity activism. However she was later fired after the company claimed she became “expendable”")
-                Text("• Kay’ana Adams was unfairly targeted and fired from her job as a firefighter due to a tattoo on her neck even though the fire station changed the policy of tattoos after they filed a comlaint to her")
+                Text("• Female Ruston police advisor was discriminated against due to her gender")
+                Text("• She didn’t receive as much training as male counterparts, and she was denied opportunities to work as an investigator.")
+        
+             
             }
         }
     }

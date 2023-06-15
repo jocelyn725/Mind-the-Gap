@@ -10,21 +10,22 @@ import SwiftUI
 struct floridaView: View {
     var body: some View {
         ZStack {
-            Color("louisiana")
+            Color("florida")
                 .ignoresSafeArea()
             VStack {
-                Text("Let's talk about the Gender Gap                            in Louisiana 💬 ")
+                Text("Let's talk about the Gender Gap                            in Florida 💬 ")
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding()
-                Text(" • Caucasian Women are paid only 67 cents for every dollar that men make ")
                 
-                Text(" • However, Black and hispanic women are paid even less. Black women are paid 52 cents for every dollar men are making and hispanic women are paid 41 cents for every dollar men are making")
+                Text(" • In Florida across all industries women are earning only 87% of what men are earning")
                 
-                Text("• A lot of this is due to occupational segregation where one demographic is overrepresented in a certain job")
-                Text("• Women have less job security and are often fired for petty reasons")
-                Text("• Yvette Gilkey-Shuford, former employee of Alabama Hyundai Plant was promoted and the company admitted that she was promoted to appease diversity activism. However she was later fired after the company claimed she became “expendable”")
-                Text("• Kay’ana Adams was unfairly targeted and fired from her job as a firefighter due to a tattoo on her neck even though the fire station changed the policy of tattoos after they filed a comlaint to her")
+                Text(" •However, When race is taken into account, Asian American women make 74 cents for every dollar a man makes, African American women make 61 cents for every dollar a man makes, and Hispanic women make only 59% of what men make.")
+                
+                Text("• The Black News Channel, which is based in Talahassee, Florida, was sued by 13 current and former employees.")
+                Text("• →Claim they were paid substantially less than their male counterparts (pay gap)")
+                Text("• → Accused of firing many female employees for complaining to HR (job security)")
+              
             }
         }
     }
