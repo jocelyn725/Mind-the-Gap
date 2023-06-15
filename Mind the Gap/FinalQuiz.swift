@@ -14,7 +14,7 @@ struct FinalQuiz: View {
                 Color("neutral")
                     .ignoresSafeArea()
                 
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
                     Text("Back to home page!")
                         .fontWeight(.bold)
                         .foregroundColor(Color.black)
