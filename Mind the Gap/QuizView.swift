@@ -32,7 +32,7 @@ struct QuizView: View {
                     .buttonStyle(.bordered)
                     
                     .tint(Color("darkerGreen"))
-                    Button("Louissiana") {
+                    Button("Louisiana") {
                         response = "Good Job!"
                         
                     }
