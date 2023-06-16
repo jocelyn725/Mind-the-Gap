@@ -39,7 +39,7 @@ struct AwarenessHelpView: View {
                     .font(.custom("Georgia", fixedSize: 17))
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
-                    .padding()
+                   // .padding()
                 
                 Text("UN Women                                                                          Global Fund For Women                                                                     Epic Equal Pay International Coalition                                                    Equal Pay Today Campaign                                                                  Institute for Women’s Policy Research")
                     .font(.custom("AmericanTypewriter", fixedSize: 20))
@@ -56,6 +56,17 @@ struct AwarenessHelpView: View {
                         .frame(width: 380, height: 70, alignment: .center)
                         .background(Color("lightPink"))
                         .cornerRadius(10)                }
+                
+                NavigationLink(destination: resourcesView()) {
+                    Text("<-Click me to see more resources->")
+                        .font(.custom("Georgia", fixedSize: 25))
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: 380, height: 70, alignment: .center)
+                        .background(Color("lightPink"))
+                        .cornerRadius(10)                }
+
                 
             }
             }
