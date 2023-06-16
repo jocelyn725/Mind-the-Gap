@@ -12,7 +12,11 @@ struct BiasView: View {
         ZStack {
             Color("lightPink")
                 .ignoresSafeArea()
+           
             VStack{
+               
+                
+                
                 Text("Bias and Stereotypes")
                     .padding()
                     .fontWeight(.bold)

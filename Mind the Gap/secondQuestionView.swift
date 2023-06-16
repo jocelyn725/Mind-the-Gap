@@ -17,7 +17,7 @@ struct secondQuestionView: View {
             
             NavigationStack {
                 VStack {
-                    Text("2) Which of the following are reasons the Gender Promotion Gap exists?")
+                    Text("2)  Which of the following are reasons the Gender Promotion Gap exists?")
                         .font(.custom("Georgia", fixedSize: 20))
                         .fontWeight(.bold)
                         .padding()

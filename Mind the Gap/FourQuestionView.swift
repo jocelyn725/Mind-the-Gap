@@ -15,7 +15,7 @@ struct FourQuestionView: View {
                 .ignoresSafeArea()
             NavigationStack {
                 VStack {
-                    Text("4) Fill in the blank, Black women make _____% of what men earn and Hispanic women earn _____ of what men earn in Louisiana.")
+                    Text("4)  Fill in the blank, Black women make _____% of what men earn and Hispanic women earn _____ of what men earn in Louisiana.")
                         .font(.custom("Georgia", fixedSize: 20))
                         .fontWeight(.bold)
                         .padding()

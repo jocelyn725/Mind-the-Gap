@@ -48,11 +48,11 @@ struct resourcesView: View {
                     .padding()
                     .font(.custom("Georgia", fixedSize: 15))
                 Text("Invisible Women: Exposing Data Bias In a World Designed For Men By: Caroline Criado Perez")
-                    .font(.custom("Georgia", fixedSize: 17))
+                    .font(.custom("Georgia", fixedSize: 16))
                     .multilineTextAlignment(.center)
                     .padding()
                 Text("The Authority Gap: Why Women are still taken less seriously than men, and what we can do about it.")
-                    .font(.custom("Georgia", fixedSize: 17))
+                    .font(.custom("Georgia", fixedSize: 16))
                     .multilineTextAlignment(.center)
                     .padding()
             }

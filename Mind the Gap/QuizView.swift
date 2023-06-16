@@ -21,7 +21,7 @@ struct QuizView: View {
                         .font(.custom("Georgia", fixedSize: 30))
                         .fontWeight(.bold)
                     
-                    Text("1)   Which state, in 2021, had women earn 78.1% of what men earned?")
+                    Text("1)  Which state, in 2021, had women earn 78.1% of what men earned?")
                         .font(.custom("Georgia", fixedSize: 20))
                         .fontWeight(.bold)
                         .padding()

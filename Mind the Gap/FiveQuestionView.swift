@@ -15,7 +15,7 @@ struct FiveQuestionView: View {
                 .ignoresSafeArea()
             NavigationStack {
                 VStack {
-                    Text("Which of the following are ways that an individual can create awareness about the gender gap?")
+                    Text("5)  Which of the following are ways that an individual can create awareness about the gender gap?")
                         .font(.custom("Georgia", fixedSize: 20))
                         .fontWeight(.bold)
                         .padding()

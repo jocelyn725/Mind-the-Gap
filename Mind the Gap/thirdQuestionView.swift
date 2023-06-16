@@ -15,7 +15,7 @@ struct thirdQuestionView: View {
                 .ignoresSafeArea()
             NavigationStack {
                 VStack {
-                    Text("3) Which year did women of all races, on average, earn just 82 cents for every $1 earned by men of all races?")
+                    Text("3)  Which year did women of all races, on average, earn just 82 cents for every $1 earned by men of all races?")
                         .font(.custom("Georgia", fixedSize: 20))
                         .fontWeight(.bold)
                         .padding()
