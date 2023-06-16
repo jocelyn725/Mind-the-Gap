@@ -13,7 +13,7 @@ struct cultureView: View {
             Color("lightPink")
                 .ignoresSafeArea()
             VStack{
-                Text("Lack of Representation in Senior Positions/Leadership positions")
+                Text("Organizational culture and bias")
                     .padding()
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
