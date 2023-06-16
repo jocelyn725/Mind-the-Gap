@@ -12,6 +12,7 @@
 		344EF7042A3B6B5D00B426BC /* FourQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EF7032A3B6B5D00B426BC /* FourQuestionView.swift */; };
 		344EF7062A3B6B6C00B426BC /* FiveQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EF7052A3B6B6C00B426BC /* FiveQuestionView.swift */; };
 		344EF7082A3B6C7100B426BC /* FinalQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344EF7072A3B6C7100B426BC /* FinalQuiz.swift */; };
+		D1109D212A3C04B20021A505 /* createAwarenessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1109D202A3C04B20021A505 /* createAwarenessView.swift */; };
 		D11C00EF2A3A4423002A1706 /* Mind_the_GapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C00EE2A3A4423002A1706 /* Mind_the_GapApp.swift */; };
 		D11C00F12A3A4423002A1706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11C00F02A3A4423002A1706 /* ContentView.swift */; };
 		D11C00F32A3A4425002A1706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11C00F22A3A4425002A1706 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		344EF7032A3B6B5D00B426BC /* FourQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourQuestionView.swift; sourceTree = "<group>"; };
 		344EF7052A3B6B6C00B426BC /* FiveQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveQuestionView.swift; sourceTree = "<group>"; };
 		344EF7072A3B6C7100B426BC /* FinalQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalQuiz.swift; sourceTree = "<group>"; };
+		D1109D202A3C04B20021A505 /* createAwarenessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAwarenessView.swift; sourceTree = "<group>"; };
 		D11C00EB2A3A4423002A1706 /* Mind the Gap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind the Gap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11C00EE2A3A4423002A1706 /* Mind_the_GapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_the_GapApp.swift; sourceTree = "<group>"; };
 		D11C00F02A3A4423002A1706 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				D11C010C2A3B7B19002A1706 /* leadershipView.swift */,
 				D11C010E2A3B7B24002A1706 /* cultureView.swift */,
 				D11C01002A3A44B2002A1706 /* AwarenessHelpView.swift */,
+				D1109D202A3C04B20021A505 /* createAwarenessView.swift */,
 				D11C01022A3B5D86002A1706 /* QuizView.swift */,
 				344EF6FF2A3B6A9000B426BC /* secondQuestionView.swift */,
 				344EF7012A3B6A9C00B426BC /* thirdQuestionView.swift */,
@@ -197,6 +200,7 @@
 				D11C01132A3B9282002A1706 /* louisianaView.swift in Sources */,
 				344EF7002A3B6A9000B426BC /* secondQuestionView.swift in Sources */,
 				D11C01072A3B73DF002A1706 /* salaryView.swift in Sources */,
+				D1109D212A3C04B20021A505 /* createAwarenessView.swift in Sources */,
 				D11C01092A3B73EB002A1706 /* promotionsView.swift in Sources */,
 				D11C010F2A3B7B24002A1706 /* cultureView.swift in Sources */,
 				D11C00F12A3A4423002A1706 /* ContentView.swift in Sources */,

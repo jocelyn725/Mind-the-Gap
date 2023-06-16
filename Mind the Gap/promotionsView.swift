@@ -14,15 +14,21 @@ struct promotionsView: View {
                 Color("neutral")
                     .ignoresSafeArea()
                 ScrollView{
-                    Text("What is the Gender Promotion Gap?")
-                    
-                    
-                    Text("Based off research done by Professor Danielle Li from MIT, female employees on average are 14% less likely to get promoted than their male colleagues. To simply put it, Let’s call this the Gender Promotion Gap.")
+                    Text("What is the Gender Promotion Gap? ✏️ ")
+                        .font(.custom("AmericanTypewriter", fixedSize: 30))
+                        .fontWeight(.semibold)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                    Text("Let's start off with some statistics: Based off research done by Professor Danielle Li from MIT, female employees on average are 14% less likely to get promoted than their male colleagues. To simply put it, Let’s call this the Gender Promotion Gap.")
+                        .font(.headline)
                         .multilineTextAlignment(.center)
                         .padding()
                     
-                    Text("Let's talk about it, Why does this Gender Promotion Gap happen?")
-                        .multilineTextAlignment(.leading)
+                    Text("You may be wondering, Why does this Gender Promotion Gap happen? Here are 3 main causes of the Gender Promotion Gap.")
+                        .font(.custom("AmericanTypewriter", fixedSize: 20))
+                        .fontWeight(.semibold)
+                        .multilineTextAlignment(.center)
+                        .padding()
                     
                     NavigationLink(destination: BiasView()) {
                         Text("1. Bias and Stereotypes")
@@ -32,6 +38,7 @@ struct promotionsView: View {
                             .frame(width: 170, height: 60, alignment: .center)
                             .background(Color("lightPink"))
                             .cornerRadius(10)
+                            .padding()
                     }
                   
                     NavigationLink(destination: leadershipView()) {
@@ -42,7 +49,7 @@ struct promotionsView: View {
                             .frame(width: 200, height: 90, alignment: .center)
                             .background(Color("lightPink"))
                             .cornerRadius(10)
-                        
+                            .padding()
                     }
 
                     
@@ -54,6 +61,7 @@ struct promotionsView: View {
                             .frame(width: 170, height: 60, alignment: .center)
                             .background(Color("lightPink"))
                             .cornerRadius(10)
+                            .padding()
                     }
 
                     

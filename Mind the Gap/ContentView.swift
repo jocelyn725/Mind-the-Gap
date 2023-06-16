@@ -25,6 +25,7 @@ struct ContentView: View {
                     
                     NavigationLink(destination: AddressIssueView()) {
                         Text("Address the Issue")
+                            .font(.custom("Georgia", fixedSize: 17))
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
@@ -38,6 +39,8 @@ struct ContentView: View {
                     
                     NavigationLink(destination: ComparisonsView()) {
                         Text("Women in the Workforce")
+                            .font(.custom("Georgia", fixedSize: 17))
+
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
@@ -50,6 +53,7 @@ struct ContentView: View {
                     .padding()
                     NavigationLink(destination: AwarenessHelpView()) {
                         Text("Awareness and Ways to Help")
+                            .font(.custom("Georgia", fixedSize: 17))
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
@@ -60,6 +64,7 @@ struct ContentView: View {
                     .padding()
                     NavigationLink(destination: QuizView()) {
                         Text("Quiz yourself!")
+                            .font(.custom("Georgia", fixedSize: 17))
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)

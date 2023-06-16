@@ -9,27 +9,55 @@ import SwiftUI
 
 struct AwarenessHelpView: View {
     var body: some View {
-        
+        NavigationStack {
         ZStack {
             Color("neutral")
                 .ignoresSafeArea()
             VStack{
                 Text("Where you come in 🫵")
                     .padding()
-                Text("-Funding/Donations- ")
-                Text("Here are some organizations dedicated to the causes of gender equality, equity, and closing the wage gap between various groups.")
+                    .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding()
+                    .padding(2)
+                      .overlay(
+                    RoundedRectangle(cornerRadius: 5)
+                    .stroke(.black, lineWidth: 4)
+                                )
+                    .padding()
+                    .font(.custom("Georgia", fixedSize: 20))
+                    .padding()
+                
+                Text("-Funding/Donations- ")
+                    .padding()
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                   
+                      .padding()
+                    .font(.custom("Georgia", fixedSize: 20))
+                Text("Here are some organizations dedicated to the causes of gender equality, equity, and closing the wage gap between various groups.")
+                    .font(.custom("Georgia", fixedSize: 17))
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                
                 Text("UN Women                                                                          Global Fund For Women                                                                     Epic Equal Pay International Coalition                                                    Equal Pay Today Campaign                                                                  Institute for Women’s Policy Research")
                     .font(.headline)
-                    .multilineTextAlignment(.center)
-                
-                Text("-Creating awareness -                                                                   In order to promote gender equality at jobs, we need to foster a sense of awareness to support individuals at their workplace. The stigma attached to discussing salaries can be lessened by increasing awareness about the issue, which can also encourage pay practices that are transparent and fair.")
+                    .foregroundColor(Color("logoBlue"))
                     .multilineTextAlignment(.center)
                     .padding()
-                Text(" 1) Have inclusive conversations also taking into consideration how some groups of people may experience harsher pay discrimination shown by statistics highlighting women of color and LGBTQ+ workers.")
-                Text(" 2) Suggesting ways to eliminate bias and discrimination in hiring, promotion, and pay decisions.                                                                               3) Create a culture of equity ")
-               
+                
+                NavigationLink(destination: createAwarenessView()) {
+                    Text("<-Creating awareness->")
+                        .font(.custom("Georgia", fixedSize: 25))
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: 350, height: 60, alignment: .center)
+                        .background(Color("lightPink"))
+                        .cornerRadius(10)                }
+                
+            }
             }
         }
     }
