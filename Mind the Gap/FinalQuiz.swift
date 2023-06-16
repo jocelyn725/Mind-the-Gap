@@ -13,7 +13,12 @@ struct FinalQuiz: View {
             ZStack {
                 Color("neutral")
                     .ignoresSafeArea()
-                NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
+                VStack(alignment: .center, spacing: 20.0) {
+                        Image("logo")
+                            .resizable()
+                            .frame(width: 300, height: 300)
+                    
+                    NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
                         Text("Back to home page!")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
@@ -25,7 +30,7 @@ struct FinalQuiz: View {
                 }
             }
         }
-        
+    }
         struct FinalQuiz_Previews: PreviewProvider {
             static var previews: some View {
                 FinalQuiz()

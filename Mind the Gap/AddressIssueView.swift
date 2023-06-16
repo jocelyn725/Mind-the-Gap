@@ -14,12 +14,16 @@ struct AddressIssueView: View {
             ZStack {
                 Color("lightPink")
                     .ignoresSafeArea()
-                VStack{
+                
+                VStack(alignment: .center, spacing: 20.0) {
+                    Image("logo")
+                        .resizable()
+                        .frame(width: 300, height: 300)
                     Text("Let's Talk about it! 🗣️")
                         .font(.custom("Georgia", fixedSize: 30))
                         .font(.title)
                         .fontWeight(.bold)
-                        .padding(30.0)
+                        .padding()
                     Text("Our Mission Statement:")
                         .font(.custom("Georgia", fixedSize: 25))
                         .fontWeight(.bold)
@@ -30,7 +34,7 @@ struct AddressIssueView: View {
                         .padding()
                     
                     NavigationLink(destination: mapView()) {
-                        Text("Check out this map to view how individuals are affected by the gender gap!")
+                        Text("Click me to hear more stories about the Gender Gap in specific states 📍")
                             .font(.custom("Georgia", fixedSize: 20))
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)

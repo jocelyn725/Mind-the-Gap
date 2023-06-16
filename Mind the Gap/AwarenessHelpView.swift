@@ -42,18 +42,18 @@ struct AwarenessHelpView: View {
                     .padding()
                 
                 Text("UN Women                                                                          Global Fund For Women                                                                     Epic Equal Pay International Coalition                                                    Equal Pay Today Campaign                                                                  Institute for Women’s Policy Research")
-                    .font(.headline)
+                    .font(.custom("AmericanTypewriter", fixedSize: 20))
                     .foregroundColor(Color("logoBlue"))
                     .multilineTextAlignment(.center)
                     .padding()
                 
                 NavigationLink(destination: createAwarenessView()) {
-                    Text("<-Creating awareness->")
+                    Text("<-Click me to see how you can help create awareness->")
                         .font(.custom("Georgia", fixedSize: 25))
                         .fontWeight(.bold)
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
-                        .frame(width: 350, height: 60, alignment: .center)
+                        .frame(width: 380, height: 70, alignment: .center)
                         .background(Color("lightPink"))
                         .cornerRadius(10)                }
                 
